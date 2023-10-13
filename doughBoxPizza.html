@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--begin Head-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="doughBoxPizza.css" >
+    <title>DooughBox Pizza&Pasta</title>
+    <script src="doughBoxPizza.js" ></script>
+    <h1 class="header">-- Dough Box Pizza & Pasta --</h1>
+</head>
+<!--end head -->
+
+<!--start body  -->
+    <body>
+        <nav class="navbar">
+            <div class="max-width">
+                <ul class="menu">
+                    <li><a href="#homeSection">Home</a></li>
+                </ul>
+            
+            </div>
+        </nav>
+
+
+        <section class="home">
+       <div class="homeSection">
+        <!-- start of product description and images section   -->
+        <!--1st product-->     
+        <div class="bodyContainer" id="items">
+            <div class="foodItems">
+               <h3><strong>Pizza</strong></h3>                   
+                        <div class="imageClass">
+                            <img src="Images/pizza.png" class="productImage" alt="Pizza" >
+                            <br>
+                        </div>
+                        
+                        <div class="pricing">
+                     <label>Price: 12.99 CAD</label>   
+                     <button type="button" onclick="addToCart(this);" class="btnAddProduct" id="Pizza">Add</button>
+                    </div>
+                </div>
+
+        <!--2nt product-->     
+                    <div class="foodItems">
+                        <h3><strong>Pasta</strong></h3>
+                        <div class="imageClass">
+                        <img src="Images/pasta.png" class="productImage" alt="Pasta" ><br>
+                        </div>
+                        <div class="pricing">
+                        <label>Price: 11.99 CAD</label>  
+                        <button type="button" class="btnAddProduct" onclick="addToCart(this);" id="Pasta">Add</button>
+                    </div>
+                    </div>
+
+        <!--3rt product-->             
+                    <div class="foodItems">
+                        <h3><strong>Salad</strong></h3>
+                        <div class="imageClass">
+                        <img src="Images/salad.png" class="productImage" alt="Salad" ><br>
+                        </div>
+                        <div class="pricing">
+                        <label>Price: 9.99 CAD</label>  
+                        <button type="button" onclick="addToCart(this);" class="btnAddProduct" id="Salad">Add</button>
+                    </div>
+                    </div>
+
+        <!--4th product-->            
+                    <div class="foodItems">
+                        <h3><strong>Drinks</strong></h3>
+                        <div class="imageClass">
+                        <img src="Images/drinks.png"class="productImage" alt="Drinks" ><br>
+                        </div>
+                        <div class="pricing">
+                        <label>Price: 3.99 CAD</label>  
+                        <button type="button" onclick="addToCart(this);" class="btnAddProduct" id="Drinks">Add</button>
+                    </div>
+                    </div>
+        <!--5th product-->            
+                    <div class="foodItems">
+                        <h3><strong>Desserts</strong></h3>
+                        <div class="imageClass">
+                        <img src="Images/dessert.jpg" class="productImage" alt="Desserts" ><br>
+                        </div>
+                        <div class="pricing">
+                        <label>Price: 4.99 CAD</label>  
+                        <button type="button" onclick="addToCart(this);" class="btnAddProduct" id="Desserts">Add</button>
+                    </div>
+                    </div>
+        <!--6th product-->            
+                    <div class="foodItems">
+                        <h3><strong>Combo</strong></h3>
+                        <div class="imageClass">
+                        <img src="Images/combo.jpg" class="productImage" alt="Combo" ><br>
+                        </div>
+                        <div class="pricing">
+                        <label>Price: 19.99 CAD</label> 
+                        <button type="button" onclick="addToCart(this);" class="btnAddProduct" id="Combo">Add</button>
+                    </div>
+                    </div>
+                </div>
+            </section>
+                 
+                                     
+        <!--Check out Button-->
+        </div>
+        <div class="footclass">
+            <button id="checkbutton" onclick="CheckOut();"  type="button">Check_Out</button>
+
+        </div>
+
+    </body>
+</html>
+
+
